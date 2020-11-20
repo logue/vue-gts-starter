@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
+    "outDir": "dist",
     "paths": {
       "@/*": [
         "src/*"
