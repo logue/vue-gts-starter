@@ -1,0 +1,24 @@
+* text=auto
+
+*.css eol=lf
+*.html eol=lf
+*.js eol=lf
+* vue eol=lf encoding=UTF-8
+*.md eol=lf encoding=UTF-8
+*.txt eol=lf encoding=UTF-8
+*.xml eol=lf encoding=UTF-8
+
+# Images
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+*.svg eol=lf encoding=UTF-8
+
+# Fonts
+*.eot binary
+*.otf binary
+*.ttf binary
+*.woff binary
+
+
