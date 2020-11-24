@@ -4,11 +4,11 @@ module.exports = {
     node: true,
   },
   extends: [
-    './node_modules/gts',
-    'plugin:vue/essential',
+    'plugin:vue/recommended',
     '@vue/typescript/recommended',
     '@vue/prettier',
     '@vue/prettier/@typescript-eslint',
+    './node_modules/gts',
   ],
   parserOptions: {
     ecmaVersion: 2020,

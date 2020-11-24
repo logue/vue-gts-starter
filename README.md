@@ -2,7 +2,7 @@
 
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
-This is a TypeScript version of Vue's starter project that conforms to the [Google TypeScript coding rules](https://github.com/google/gts).
+This is a [Vue](https://vuejs.org) starter project that complies with [Google TypeScript Style](https://github.com/google/gts). Compatible with [Vue CLI](https://cli.vuejs.org/).
 
 You can also add [Bootstrap-vue](https://bootstrap-vue.org/), [Vuetify](https://vuetifyjs.com/), etc. to this project.
 

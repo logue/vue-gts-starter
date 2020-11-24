@@ -57,6 +57,11 @@
           typescript
         </a>
       </li>
+      <li>
+        <a href="https://github.com/google/gts" target="_blank" rel="noopener">
+          Google TypeScript Style
+        </a>
+      </li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
