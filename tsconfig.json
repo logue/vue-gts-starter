@@ -31,11 +31,6 @@
       "./src/types"
     ]
   },
-  "file": [
-    "./node_modules/vue/types/vue.d.ts",
-    "./node_modules/vue-router/types/vue.d.ts",
-    "./node_modules/vuex/types/vue.d.ts"
-  ],
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",

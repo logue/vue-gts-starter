@@ -18,6 +18,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'node/no-missing-import': 'off',
     'node/no-unpublished-import': 'off',
+    'node/no-unpublished-require': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-unsupported-features/node-builtins': 'off',
   },

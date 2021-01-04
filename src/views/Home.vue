@@ -19,7 +19,7 @@ export default class Home extends Vue {
   /*
   // Props
   @Prop()
-  readonly prop!: string;
+  readonly prop: string = 'prop';
 
   // Model and Data
   private data: string | null = null;

@@ -3,6 +3,8 @@
 
 # Texts
 *.css eol=lf encoding=UTF-8
+*.scss eol=lf encoding=UTF-8
+*.sass eol=lf encoding=UTF-8
 *.html eol=lf encoding=UTF-8
 *.js eol=lf encoding=UTF-8
 *.ts eol=lf encoding=UTF-8
