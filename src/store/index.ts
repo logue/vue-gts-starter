@@ -43,12 +43,10 @@ const mutations: MutationTree<RootState> = {
 
 // Action
 const actions: ActionTree<RootState, RootState> = {
-  /*
   exampleAction(context: ActionContext<RootState, RootState>, data: any) {
     // ...
     context.commit('exampleMutation', data);
   },
-  */
 };
 
 // VuexStore
