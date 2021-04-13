@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: 'stylelint-config-standard',
+  extends: ['stylelint-config-standard'],
   plugin: ['stylelint-scss'],
   rules: {
     'at-rule-no-unknown': [
