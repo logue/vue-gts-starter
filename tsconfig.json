@@ -15,7 +15,6 @@
     "jsx": "preserve",
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
     "outDir": "dist",
     "paths": {
       "@/*": [
@@ -28,11 +27,15 @@
       "webpack-env"
     ],
     "typeRoots": [
-      "./src/types"
+      "./src/types",
+      "./node_modules/@types",
+      "./node_modules/vue/types",
+      "./node_modules/vue-router/types",
+      "./node_modules/vuex/types"
     ]
   },
   "exclude": [
-    "node_modules",
+    "node_modules"
   ],
   "include": [
     "src/**/*.ts",
@@ -40,5 +43,5 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ]
+  ],
 }
