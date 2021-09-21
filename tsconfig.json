@@ -1,42 +1,26 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig.json",
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ],
-    "importHelpers": true,
-    "jsx": "preserve",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "outDir": "dist",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
-    "skipLibCheck": true,
     "target": "esnext",
-    "types": [
-      "webpack-env"
-    ],
-    "typeRoots": [
-      "./src/types",
-      "./node_modules/@types",
-      "./node_modules/vue/types",
-      "./node_modules/vue-router/types",
-      "./node_modules/vuex/types"
-    ]
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["webpack-env"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable"]
   },
-  "exclude": [
-    "node_modules"
-  ],
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
@@ -44,4 +28,5 @@
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],
+  "exclude": ["node_modules"]
 }
