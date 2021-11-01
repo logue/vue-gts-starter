@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable */
 
 /** vue設定 */
-// eslint-disable-next-line node/no-extraneous-require
 const TerserPlugin = require('terser-webpack-plugin');
 
 /**
